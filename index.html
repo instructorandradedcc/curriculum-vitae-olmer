@@ -28,7 +28,7 @@
       .tab-btn {
         display: inline-block;
         padding: 0.75rem 1rem;
-        font-medium: 600;
+        font-weight: 600; /* Corregido: 'font-medium: 600' a 'font-weight: 600' */
         border-bottom: 3px solid transparent;
         color: #475569;
         cursor: pointer;
@@ -175,7 +175,8 @@
                 <h3 class="text-2xl font-semibold text-slate-800 border-b-2 border-teal-500 pb-2 mb-4">Perfil Profesional</h3>
                 <div class="space-y-4 text-base md:text-lg text-slate-700">
                     <p>Ingeniero Industrial y Administrador de Empresas con más de 8 años de experiencia en la alta dirección de ONGs, coordinación y evaluación de proyectos, y consultoría empresarial. Experto en la optimización de procesos productivos, gestión de recursos de financiamiento y capacitación de equipos de alto rendimiento en sectores industrial, petrolero y de respuesta a emergencias.</p>
-                    <p>Líder innato con un fuerte enfoque en la planificación estratégica, gestión de talento humano y oratoria. Reconocido por mi habilidad para encontrar soluciones y cumplir metas organizacionales. Actualmente, me dedico al desarrollo de software en Realidad Aumentada (AR) y prótesis biónicas (p4hbionics). (<a href="https://instructorandradedcc.github.io/propuesta-AR/" target="_blank" rel="noopener noreferrer" class="text-teal-600 hover:underline">Ver demo AR de modelos de prótesis</a>).</p>
+                    <p>Líder innato con un fuerte enfoque en la planificación estratégica, gestión de talento humano y oratoria. Reconocido por mi habilidad para encontrar soluciones y cumplir metas organizacionales.</p>
+                    <!-- CAMBIO: Moví la info de AR/Bionics a la sección "Experiencia" como solicitaste -->
                 </div>
                 <div class="mt-6 pt-6 border-t border-slate-200">
                     <h4 class="text-lg font-semibold text-slate-800 mb-3">Contacto</h4>
@@ -225,6 +226,9 @@
                             <li>Diseño e impartición de capacitaciones para brigadas (industriales, empresariales, petroleras, mineras, constructoras).</li>
                             <li>Asesor en seguridad industrial, gestión de riesgo y brigadas para empresas (a través de A Salvo SAS y otras).</li>
                             <li>Instructor para ARL Positiva y Bolívar (vía A Salvo SAS), y evaluador de brigadas.</li>
+                            <!-- CAMBIO: Añadí sus páginas de AR y Bionics aquí como solicitó -->
+                            <li>Desarrollo de material de capacitación interactivo usando Realidad Aumentada (<a href="https://instructorandradedcc.github.io/propuesta-AR/" target="_blank" rel="noopener noreferrer" class="text-teal-600 hover:underline">Demo AR</a>) y prototipado de prótesis (<a href="#" target="_blank" rel="noopener noreferrer" class="text-teal-600 hover:underline">p4hbionics</a>).</li>
+                            <!-- NOTA: He añadido un enlace de marcador de posición para 'p4hbionics'. Por favor, actualice el 'href' con la URL correcta. -->
                         </ul>
                     </article>
 
@@ -333,7 +337,7 @@
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h4 class="text-xl font-semibold text-teal-700">Maestría en Administración de Proyectos y Operaciones</h4>
                     <p class="text-slate-600">Southern New Hampshire University - Manchester, USA</p>
-                    <p class="text-sm font-medium text-slate-500 mt-1">(En curso, finaliza 06/2025)</p>
+                    <p class="text-sm font-medium text-slate-500 mt-1">(En curso, finaliza 05/2026)</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h4 class="text-xl font-semibold text-teal-700">Ingeniero Industrial</h4>
@@ -351,7 +355,7 @@
                     <p class="text-sm font-medium text-slate-500 mt-1">(2019)</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h4 class="text-xl font-semibold text-teal-700">Estudios de Especialización (Culminación de materias)</h4>
+                    <h4 class="text-xl font-semibold text-teal-700">Estudios de Especialización (Pendiente grado)</h4>
                     <p class="text-slate-600">Corporación Colombo Alemana de Educación Superior ICAFT - Bogotá</p>
                     <ul class="list-disc list-outside ml-5 mt-2 text-sm text-slate-600">
                         <li>Especialización en Seguridad y Salud en el Trabajo (SST).</li>
@@ -395,7 +399,8 @@
                     </div>
                     <div class="ml-4">
                         <h4 class="text-base font-semibold text-slate-800">Instructor Certificado (CRECL & SCI)</h4>
-                        <p class="text-sm text-slate-600">Defensa Civil Colombiana (2021)</p>
+                        <!-- CAMBIO: Actualicé el año de 2021 a 2021 - Actualidad -->
+                        <p class="text-sm text-slate-600">Defensa Civil Colombiana (2021 - Actualidad)</p>
                     </div>
                 </div>
                 <div class="bg-white p-5 rounded-lg shadow-lg flex items-center">
@@ -427,6 +432,38 @@
                 </div>
             </div>
 
+            <!-- NUEVA SECCIÓN: Otros Cursos y Certificaciones -->
+            <h3 class="text-3xl font-semibold text-slate-800 border-b-2 border-teal-500 pb-2 mb-4 mt-16">Otros Cursos y Formación</h3>
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-slate-700">
+                        <li>Participante - II Olimpiadas de Búsqueda y Rescate (Defensa Civil, 2013)</li>
+                        <li>Apoyo Logístico - XI Encuentro Semilleros de Investigación (RedCOLSI, 2014)</li>
+                        <li>Organizador - IX Congreso de Trauma y Violencia (Acome, 2016)</li>
+                        <li>Buenas Prácticas Agrícolas (SENA, 2017)</li>
+                        <li>Producción de Compostaje (SENA, 2017)</li>
+                        <li>Procesos Comunicativos Básicos en Inglés (SENA, 2017)</li>
+                        <li>Economía Solidaria (SENA, 2018)</li>
+                        <li>Estructura de Propuesta para Proyectos Productivos (SENA, 2018)</li>
+                        <li>Curso Rescate Vehicular (Defensa Civil, 2018)</li>
+                        <li>Teoría de Proyectos y Metodología MGA (SENA, 2018)</li>
+                        <li>Básico de Contabilidad, Costos y Presupuestos (SENA, 2018)</li>
+                    </ul>
+                    <ul class="list-disc list-outside ml-5 space-y-2 text-slate-700">
+                        <li>Atención y Servicio al Cliente (SENA, 2018)</li>
+                        <li>Curso Básico Defensa Civil (Defensa Civil, 2020)</li>
+                        <li>Curso de Rescate en Estructuras Colapsadas Liviano (Defensa Civil, 2020)</li>
+                        <li>Curso Sistema Comando de Incidentes (Defensa Civil, 2020)</li>
+                        <li>Curso Soporte Vital Básico (Defensa Civil, 2022)</li>
+                        <li>Curso de Planes (Familiar y Escolar) en Gestión del Riesgo (Defensa Civil, 2022)</li>
+                        <li>Búsqueda y Rescate en Estructuras Colapsadas (Brec) (Defensa Civil, 2022)</li>
+                        <li>Actualización de Instructores (CRECL & SCI) (Defensa Civil, 2024)</li>
+                        <li>Nivel de Inglés B1 (IBEST S.A.S.)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- FIN DE NUEVA SECCIÓN -->
+
         </section>
     </main>
 
@@ -455,7 +492,8 @@
                     ],
                     datasets: [{
                         label: 'Competencias',
-                        data: [5, 5, 5, 5, 5, 5, 5, 5, 4],
+                        // CAMBIO: Aumenté el valor de 'Desarrollo de Software (AR)' de 4 a 5
+                        data: [5, 5, 5, 5, 5, 5, 5, 5, 5],
                         backgroundColor: 'rgba(13, 148, 136, 0.2)',
                         borderColor: 'rgba(13, 148, 136, 1)',
                         pointBackgroundColor: 'rgba(13, 148, 136, 1)',
@@ -508,6 +546,7 @@
                 }
             });
 
+            // Lógica para las pestañas de experiencia
             const experienceTabs = document.getElementById('experienceTabs');
             const experienceContent = document.getElementById('experienceContent');
             const experienceItems = experienceContent.querySelectorAll('.experience-item');
@@ -533,6 +572,7 @@
                 });
             });
 
+            // Lógica para el menú móvil
             const mobileMenuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
             mobileMenuBtn.addEventListener('click', () => {
@@ -540,13 +580,14 @@
                 mobileMenuBtn.querySelectorAll('svg').forEach(svg => svg.classList.toggle('hidden'));
             });
 
+            // Lógica para el "spy scrolling" de la navegación
             const navLinks = document.querySelectorAll('.nav-link');
             const sections = document.querySelectorAll('section');
 
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.4 
+                threshold: 0.4 // Se activa cuando el 40% de la sección es visible
             };
 
             const sectionObserver = new IntersectionObserver((entries, observer) => {
@@ -568,6 +609,7 @@
                 sectionObserver.observe(section);
             });
             
+            // Lógica para el scroll suave y cierre del menú móvil
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -575,6 +617,7 @@
                         behavior: 'smooth'
                     });
                     
+                    // Cierra el menú móvil si está abierto
                     if(mobileMenu.classList.contains('hidden') === false) {
                          mobileMenu.classList.add('hidden');
                          mobileMenuBtn.querySelectorAll('svg').forEach(svg => svg.classList.toggle('hidden'));
